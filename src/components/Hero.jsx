@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-import Bounded from "./Bounded.jsx"
+import Bounded from "./Bounded.tsx"
 import FoxCanvas from "./Fox.jsx";
 
 // Function to split a name into individual letters
