@@ -1,12 +1,12 @@
-import Contact from "./Contact";
-import Hero from "./Hero";
-import Portfolio from "./Portfolio";
-import About from "./About";
-import Navbar from "./Navbar";
-import FoxCanvas from "./Fox";
-import CanvasLoader from "./Loader";
-import FoxLaptopCanvas from "./FoxLaptop";
-import Footer from "./Footer";
+import Contact from "./Contact.jsx";
+import Hero from "./Hero.jsx";
+import Portfolio from "./Portfolio.jsx";
+import About from "./About.jsx";
+import Navbar from "./Navbar.jsx";
+import FoxCanvas from "./Fox.jsx";
+import CanvasLoader from "./Loader.jsx";
+import FoxLaptopCanvas from "./FoxLaptop.jsx";
+import Footer from "./Footer.jsx";
 
 export {
     Contact, Hero, Portfolio, About, FoxCanvas, Navbar, CanvasLoader, FoxLaptopCanvas, Footer,

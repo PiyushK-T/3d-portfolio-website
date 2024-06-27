@@ -1,7 +1,6 @@
 import { useRef } from 'react';
 import { BrowserRouter } from "react-router-dom";
-import { Contact, Hero, Portfolio, About, Navbar } from "./components";
-import Footer from './components/Footer';
+import { Contact, Hero, Portfolio, About, Navbar, Footer } from "./components";
 
 const App = () => {
   const wrapperRef = useRef(null);

@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 import foxLaptopScene from "../assets/3d/foxGrass.glb";
 import { ContactShadows, Float, Environment } from "@react-three/drei";
-import CanvasLoader from "./Loader";
+import CanvasLoader from "./Loader.jsx";
 
 const FoxLaptop = ({ scale, position }) => {
   const foxLaptopRef = useRef();

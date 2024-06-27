@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 import foxScene from "../assets/3d/fox3.glb";
 import { ContactShadows, Environment } from "@react-three/drei";
-import CanvasLoader from "./Loader";
+import CanvasLoader from "./Loader.jsx";
 import * as THREE from "three"; 
 import gsap from "gsap";
 
