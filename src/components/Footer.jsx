@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faTwitter, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faXTwitter, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import Bounded from "./Bounded";
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faInstagram} size="lg" />
           </a>
           <a href="https://x.com/piyush_talware" className="text-3xl md:text-[45px] sm:text-[30px] text-white hover:text-teal-300">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+            <FontAwesomeIcon icon={faXTwitter} size="lg" />
           </a>
         </div>
       </div>

@@ -4,6 +4,14 @@
   portfolio3,
   WR1,
   WR2,
+  SE1,
+  SE2,
+  SE3,
+  SE4,
+  CamP1,
+  CamP2,
+  CamP3,
+  CamP4,
  } from '../assets';
 
   export const navLinks = [
@@ -24,19 +32,18 @@
       title: "Contact",
     },
   ];
-
   const education = [
     {
-      degree:"Masters of Science in Computer Science",
+      degree:"M.S. in Computer Science",
       university: "Stevens Institute of Technology",
       address:"Hoboken, New Jersey, USA",
-      year:"2023 - Present",
+      year:"07/2023 - 05/2025",
     },
     {
-      degree:"Bachelors of Engineering in Computer Engineering",
+      degree:"B.E. in Computer Engineering",
       university: "Pune Institute of Technology, S.P.P.U.",
       address:"Pune, Maharashtra, India",
-      year:"2018 - 2022",
+      year:"07/2018 - 07/2022",
     },
   ];
   
@@ -44,51 +51,49 @@
     {
       title: "Full Stack Developer Project Intern",
       company_name: "RobIN Automotives",
-      date: "Sep 2021 - Jun 2022",
+      date: "09/2021 - 06/2022",
       details: [
-        "Developed an Industry 4.0 SaaS portal.",
-        "Responsible for creating an end-to-end website for customers as well as for the EV industry-related entities such as service centers, factories, workers, outlets, etc.",
-       "Technologies used: HTML, CSS, ReactJS, Material UI, NodeJS, ExpressJS, Mongoose, JWT, MongoDB Atlas, Heroku",
+       "Designed and developed an EV website with complaint handling, order tracking, and service center features.",
+      "Built a Machine Learning model to analyze customer reviews and classify them, training on the COCO-2017 dataset using Logistic Regression, Linear Support Vector Classification, and Bernoulli Naïve Bayes.",
+      "Collaborated in a 4-member team, showcasing project coordination and development expertise.",
+      "Languages used: JavaScript, Python, HTML, CSS"
       ],
     },
   ];
   
   const portfolio = [
     {
-      name: "Sentiment Analysis of Customers using Machine Learning",
+      name:"ServiceEasy (Web app for electronic device service centers)",
       description:
-      `Collaborated in a four-person team to develop a robust machine learning model aimed at analyzing and classifying customer reviews 
-      using the COCO-2017 dataset. This project focused on leveraging Natural Language Processing (NLP) techniques to preprocess textual 
-      data and employed algorithms such as Logistic Regression, Linear Support Vector Classification, and Bernoulli Naïve Bayes for training 
-      and optimization. The goal was to enhance understanding of customer sentiment in a dynamic industrial context, aiming to improve operational 
-      strategies and customer satisfaction through insightful feedback analysis.`,
-      tech:``,
+      `Developed a web platform for device service requests with ticketing, account management, and an admin dashboard, 
+      ensuring functionality and user satisfaction in a team of four.`,
+      tech:`JavaScript, HTML, CSS`,
+      images: [SE1, SE2, SE3, SE4], 
     },
     {
-      name: "Rain Prediction using Machine Learning",
+      name:"CampusPulse (Web app for managing events and finding roommates)",
       description:
-      `As part of a collaborative trio, we developed a robust machine learning model to predict rainfall. Our approach involved preprocessing 
-      diverse meteorological data and utilizing Logistic Regression, Random Forest, and Gradient Boosting algorithms to address class imbalances 
-      and achieve accuracies between 78% and 86%. Our goal was to enhance weather forecasting accuracy and provide actionable insights for 
-      weather-sensitive sectors. Future work includes refining models, adding relevant features, and exploring advanced techniques for even 
-      stronger predictions.`,
-      tech:``,
-    },
-    {
-      name: "Android app connecting farmers with customers",
-      description:
-      `Collaborated in a four-person team to design and code a mobile 
-      software service connecting farmers directly with customers and transporters.`,
-      tech:``,
-      images: [WR1, WR2], 
+      `Created a student event management app with features like event creation, registration, real-time notifications, 
+      and roommate finding. Implemented user-centric designs collaboratively in a team environment.`,
+      tech:`JavaScript, HTML, CSS`,
+      images: [CamP1, CamP2, CamP3, CamP4], 
     },
     {
       name: "Portfolio Website",
       description:
-      "Developed a portfolio website using Three.js, Tailwind CSS, and Vite featuring custom self designed and modeled 3D models.",
-      tech:``,
+      `Built a portfolio website using ReactJS, Tailwind CSS, and Vite to showcase web development and machine learning projects. 
+      Integrated self-designed 3D models created in Blender to enhance visual appeal.`,
+      tech:`JavaScript, TypeScript, Threejs, HTML, CSS`,
       images: [portfolio1, portfolio2, portfolio3], 
       },
+      {
+      name: "White Radish (Mobile Software Service for Farmers)",
+      description:
+      `Collaborated in a 4-member team to develop an Android app connecting farmers directly with customers. Led 
+        the UI design process and contributed to backend development for a seamless user experience`,
+      tech:`Java`,
+      images: [WR1, WR2], 
+    },
   ];
   
   export { education, experiences, portfolio };
