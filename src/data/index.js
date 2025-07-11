@@ -12,6 +12,10 @@
   CamP2,
   CamP3,
   CamP4,
+  Kube1,
+  Kube2,
+  Kube3,
+  Kube4, 
  } from '../assets';
 
   export const navLinks = [
@@ -62,6 +66,14 @@
   ];
   
   const portfolio = [
+     {
+      name: "URL Shortener with Docker and Kubernetes",
+      description: 
+      `Built a full-stack URL shortener with user authentication, personalized dashboards, and real-time link management features.
+      Integrated Docker for containerization and Kubernetes for scalable deployment.`,
+      tech: `Node.js, Express, MongoDB, Handlebars, Docker, Kubernetes`,
+      images: [Kube1, Kube2, Kube3, Kube4],
+    },
     {
       name:"ServiceEasy (Web app for electronic device service centers)",
       description:
