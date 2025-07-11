@@ -11,7 +11,11 @@ import CamP1 from './CamP1.png';
 import CamP2 from './CamP2.png';
 import CamP3 from './CamP3.png';
 import CamP4 from './CamP4.png';
+import Kube1 from './kube1.png';
+import Kube2 from './kube2.png';
+import Kube3 from './kube3.png';
+import Kube4 from './kube4.png';
 
 export {
-  portfolio1, portfolio2, portfolio3, WR1, WR2, SE1, SE2, SE3, SE4, CamP1,CamP2,CamP3,CamP4,
+  portfolio1, portfolio2, portfolio3, WR1, WR2, SE1, SE2, SE3, SE4, CamP1, CamP2, CamP3, CamP4, Kube1, Kube2, Kube3, Kube4,
 };
